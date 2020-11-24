@@ -1,0 +1,281 @@
+
+#btn-scroll{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 9999;
+ background-color: #7B9F65;
+ 
+}
+.nav{
+  position: fixed !important;
+  z-index: 9999;
+  transition: all .5s;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  
+
+  
+}
+a , .a
+{transition: all .1s;}
+.nav .navbar-brand ,.nav .nav-link-hover ,h5 ,h2 ,.overlay .prag ,.overlay .btn a , .a{
+  color: #fff ;
+  transition: all 1s;
+  text-decoration: none;
+  
+}
+
+.pages{
+  font-size: 16px;
+}
+.nav .navbar-brand{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.img{
+    width:100%;
+}
+#green{
+  color: #7B9F65 !important;
+}
+.nav .nav-link-hover:hover{
+  color: #7B9F65 !important;
+}
+.slider-img
+{
+  position: relative;
+}
+.cut-img{
+    height:100px;
+    width:100px;
+}
+.img-overlay
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.overlay-caption
+{
+  z-index: 135;
+}
+.overlay-caption h1
+{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 40px;
+
+}
+.overlay-caption h3
+{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 36px;
+  color: #7B9F65;
+
+}
+.overlay-caption button
+{
+  
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #046562;
+  border-radius: 30px ;
+  color: #fff !important;
+
+}
+/* Service */
+.Service
+{
+  background-color: #DEDFDF;
+}
+.service-caption h1
+{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 36px;  
+
+}
+.icons h4
+{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;  
+
+}
+.about
+{
+  background-color: #F1F1F1;
+}
+#aboutBtn
+{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: #046562;
+  border-radius: 30px ;
+  color: #fff !important;
+}
+/* portfolio */
+.portfolio
+{
+  background-color:#DEDFDF ;
+}
+.img-background
+{
+  position: relative;
+}
+#portfolioBtn
+{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: #046562;
+  border-radius: 30px ;
+  color: #fff !important;
+}
+/* contact */
+.contacts .form-control{
+  box-shadow: none;
+
+   
+}
+.input {
+  border:1px solid #7B9F65 !important;
+  outline: none;
+
+}
+.send-btn{
+  background-color: #7B9F65 !important;
+   color: #Fff !important; 
+}
+/* mobile responsive  */
+/* --------------------------------------------------------------- @media query------------------------------------------------------------------------------- */
+
+/* Extra Small */
+@media(max-width:767px){
+  /* section one */
+  .overlay-caption h1
+  {
+  
+    font-size: 32px;
+   
+  
+  }
+  .overlay-caption h3
+  {
+    
+    font-size: 22px;
+   
+  
+  }
+  .overlay-caption button
+  {
+    
+    font-size: 16px;
+   
+  
+  }
+  .service-caption h1
+{
+  
+  font-size: 20px;  
+
+
+}
+ 
+  .icons h4
+  {
+    
+    font-size: 16px;  
+    
+  
+  }
+  
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+  .overlay-caption h1
+  {
+  
+    font-size: 50px;
+   
+  
+  }
+  .overlay-caption h3
+  {
+    
+    font-size: 29px;
+   
+  
+  }
+  .overlay-caption button
+  {
+    
+    font-size:24px;
+   
+  
+  }
+  .service-caption h1
+{
+  
+  font-size: 26px;  
+
+
+}
+ 
+  .icons h4
+  {
+    
+    font-size: 20px;  
+    
+  
+  }
+  
+}
+
+
+/* Medium */
+@media(min-width:992px) and (max-width:1200px){
+  .overlay-caption h1
+  {
+  
+    font-size: 60px;
+   
+  
+  }
+  .overlay-caption h3
+  {
+    
+    font-size: 33px;
+   
+  
+  }
+  .overlay-caption button
+  {
+    
+    font-size:27px;
+   
+  
+  }
+  .service-caption h1
+{
+  
+  font-size: 32px;  
+
+
+}
+ 
+  .icons h4
+  {
+    
+    font-size: 29px;  
+    
+  
+  }
+  
+}
+

@@ -1,0 +1,35 @@
+<httml>
+<head>
+  <title>jquery</title>  
+        <script src="jquery.min.js"></script>
+<style>
+    #hidden{
+        display:none;
+    }
+  
+    
+    </style>
+    </head>
+<body>
+    <p id="appear">maha ia gamda neek</p>
+    <button id="toggle">toggle</button>
+
+    
+<script>
+  $("#toggle").click(function(){
+      if($("p").css("display") == "none"){    
+          $("p").fadeIn();
+
+      }
+      else{
+          $("p").fadeOut();
+      };
+  })
+    </script>
+   
+  
+    
+    </body>
+
+
+</httml>

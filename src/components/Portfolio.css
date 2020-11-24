@@ -1,0 +1,69 @@
+#card-img{
+   background-color: #035451;
+} 
+.img-background{
+    background-color: #000;
+}
+ul{
+    list-style-type: none;
+     color: #7B9F65; 
+     font-size: 10px;
+}
+.card-title{
+    color: #000;
+}
+.service-btn{
+    height: 80px;
+}
+
+.portfolio
+{
+  background-color:#DEDFDF ;
+}
+ h1 {
+    color:#033836;
+}
+.img-background
+{
+  position: relative;
+}
+.img-overlay
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hide {
+    display: none;
+   }
+a
+{transition: all .1s;}
+.overlay .btn a{
+  color: #fff ;
+  transition: all 1s;
+  text-decoration: none;
+  
+}
+#portfolioBtn
+{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: #046562;
+  border-radius: 30px ;
+  color: #fff !important;
+}
+.project-btn {
+     transition: all .5s ease-in-out;
+
+}
+.project-btn:hover{
+    background-color: rgb(12, 177, 122) !important;
+}
+
+
+
+
